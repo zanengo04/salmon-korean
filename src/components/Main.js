@@ -1,6 +1,5 @@
 import React from 'react'
 
-import FlipCard from './FlipCard'
 import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -24,28 +23,62 @@ export default function Main() {
     const classes = useStyles();
     return (
         <main>
-            <h1>New to Korean?</h1>
+            <div className="cardAlign">
+                <h1>New to Korean?</h1>
 
-            <div className="startHere">
-                <Link to="/alphabet">Start here</Link>
-            </div>
-            <div className ="introCard">
+                <div className="startHere">
+                    <Link to="/alphabet">Start here</Link>
+                </div>
+                <div className ="introCard">
+                    <Card className={classes.root}>
+                        <Link to={'/alphabet'}>
+                            <CardActionArea>
+                            <CardMedia
+                                component="img"
+                                alt="Korean Alphabet"
+                                height="140"
+                                image={require("./Pages/content/alphabet.jpg")}
+                                title="Korean Alphabet"
+                                />
+                                <CardContent>
+                                <Typography gutterBottom variant="h5" component="h2">
+                                    Korean Alphabet
+                                </Typography>
+                                <Typography variant="body2" color="textSecondary" component="p">
+                                    Jump start your Korean by learning how to read and write
+                                </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                        </Link>
+                    <CardActions>
+                        <Button size="small" color="primary">
+                        Share
+                        </Button>
+                        <Link to="/alphabet">
+                            <Button size="small" color="primary">
+                                Learn More
+                            </Button>
+                        </Link>
+                    </CardActions>
+                    </Card>
+                </div>
+                <div className ="introCard">
                 <Card className={classes.root}>
-                    <Link to={'/alphabet'}>
+                    <Link to={'/survival-korean'}>
                         <CardActionArea>
                         <CardMedia
                             component="img"
-                            alt="Korean Alphabet"
+                            alt="Survival Korean"
                             height="140"
-                            image={require("./Pages/content/grammar1.png")}
-                            title="Korean Alphabet"
+                            image={require("./Pages/content/survival.jpg")}
+                            title="Survival Korean"
                             />
                             <CardContent>
                             <Typography gutterBottom variant="h5" component="h2">
-                                To be
+                                Survival Korean
                             </Typography>
                             <Typography variant="body2" color="textSecondary" component="p">
-                                Jump start your Korean by learning how to read and write
+                                Want to travel to Korea? Learn these words and phrases
                             </Typography>
                             </CardContent>
                         </CardActionArea>
@@ -54,74 +87,48 @@ export default function Main() {
                     <Button size="small" color="primary">
                     Share
                     </Button>
-                    <Button size="small" color="primary" href="/to-be">
-                    Learn More
-                    </Button>
+                    <Link to="/survival-korean">
+                       <Button size="small" color="primary">
+                            Learn More
+                        </Button>
+                    </Link>
                 </CardActions>
                 </Card>
             </div>
-            <div className ="introCard">
-            <Card className={classes.root}>
-                <Link to={'/to-be'}>
-                    <CardActionArea>
-                    <CardMedia
-                        component="img"
-                        alt="Grammar 1: 이다"
-                        height="140"
-                        image={require("./Pages/content/grammar1.png")}
-                        title="Grammar 1: 이다"
-                        />
-                        <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            To be
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Want to travel to Korea? Learn these words and phrases
-                        </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                </Link>
-            <CardActions>
-                <Button size="small" color="primary">
-                Share
-                </Button>
-                <Button size="small" color="primary" href="/to-be">
-                Learn More
-                </Button>
-            </CardActions>
-            </Card>
-        </div>
-            <div className ="introCard">
-            <Card className={classes.root}>
-                <Link to={'/to-be'}>
-                    <CardActionArea>
-                    <CardMedia
-                        component="img"
-                        alt="Grammar 1: 이다"
-                        height="140"
-                        image={require("./Pages/content/grammar1.png")}
-                        title="Grammar 1: 이다"
-                        />
-                        <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            To be
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            After this lesson you will learn how to say: "I am", "It is", "She is", "They are", etc.
-                        </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                </Link>
-            <CardActions>
-                <Button size="small" color="primary">
-                Share
-                </Button>
-                <Button size="small" color="primary" href="/to-be">
-                Learn More
-                </Button>
-            </CardActions>
-            </Card>
-        </div>
+                <div className ="introCard">
+                <Card className={classes.root}>
+                    <Link to={'/grammar'}>
+                        <CardActionArea>
+                        <CardMedia
+                            component="img"
+                            alt="Grammar"
+                            height="140"
+                            image={require("./Pages/content/grammar.jpg")}
+                            title="Grammar"
+                            />
+                            <CardContent>
+                            <Typography gutterBottom variant="h5" component="h2">
+                                Grammar
+                            </Typography>
+                            <Typography variant="body2" color="textSecondary" component="p">
+                                After this lesson you will learn how to say: "I am", "It is", "She is", "They are", etc.
+                            </Typography>
+                            </CardContent>
+                        </CardActionArea>
+                    </Link>
+                <CardActions>
+                    <Button size="small" color="primary">
+                    Share
+                    </Button>
+                    <Link to="/grammar">
+                       <Button size="small" color="primary">
+                            Learn More
+                        </Button>
+                    </Link>
+                </CardActions>
+                </Card>
+            </div>
+            </div>
         </main>
     
     )
