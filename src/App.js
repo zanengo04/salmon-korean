@@ -8,7 +8,6 @@ import Typing from './components/Typing'
 import Register from './components/Register'
 import Login from './components/Login'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import KoreanAlphabet from './components/Pages/Alphabet';
 import Survival from './components/Pages/SurvivalKorean';
 import About from './components/Pages/About';
@@ -30,7 +29,7 @@ function HideAside(){
 
 function App({className}) {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className={className}>
         <Header />
         <Switch>
