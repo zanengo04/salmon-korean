@@ -29,7 +29,7 @@ function HideAside(){
 
 function App({className}) {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="https://zanengo04.github.io/salmon-korean">
       <div className={className}>
         <Header />
         <Switch>
