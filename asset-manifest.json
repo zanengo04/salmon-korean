@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "https://zanengo04.github.io/salmon-korean/static/js/main.42aed3ed.chunk.js",
-    "main.js.map": "https://zanengo04.github.io/salmon-korean/static/js/main.42aed3ed.chunk.js.map",
+    "main.js": "https://zanengo04.github.io/salmon-korean/static/js/main.901b8381.chunk.js",
+    "main.js.map": "https://zanengo04.github.io/salmon-korean/static/js/main.901b8381.chunk.js.map",
     "runtime-main.js": "https://zanengo04.github.io/salmon-korean/static/js/runtime-main.dff1a19b.js",
     "runtime-main.js.map": "https://zanengo04.github.io/salmon-korean/static/js/runtime-main.dff1a19b.js.map",
-    "static/js/2.56c04b01.chunk.js": "https://zanengo04.github.io/salmon-korean/static/js/2.56c04b01.chunk.js",
-    "static/js/2.56c04b01.chunk.js.map": "https://zanengo04.github.io/salmon-korean/static/js/2.56c04b01.chunk.js.map",
+    "static/js/2.fd34151f.chunk.js": "https://zanengo04.github.io/salmon-korean/static/js/2.fd34151f.chunk.js",
+    "static/js/2.fd34151f.chunk.js.map": "https://zanengo04.github.io/salmon-korean/static/js/2.fd34151f.chunk.js.map",
     "index.html": "https://zanengo04.github.io/salmon-korean/index.html",
-    "precache-manifest.42bd5d027c1dc90830f0f8c163c90863.js": "https://zanengo04.github.io/salmon-korean/precache-manifest.42bd5d027c1dc90830f0f8c163c90863.js",
+    "precache-manifest.763173200e0a5beb941d93afce25e70d.js": "https://zanengo04.github.io/salmon-korean/precache-manifest.763173200e0a5beb941d93afce25e70d.js",
     "service-worker.js": "https://zanengo04.github.io/salmon-korean/service-worker.js",
-    "static/js/2.56c04b01.chunk.js.LICENSE.txt": "https://zanengo04.github.io/salmon-korean/static/js/2.56c04b01.chunk.js.LICENSE.txt"
+    "static/js/2.fd34151f.chunk.js.LICENSE.txt": "https://zanengo04.github.io/salmon-korean/static/js/2.fd34151f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dff1a19b.js",
-    "static/js/2.56c04b01.chunk.js",
-    "static/js/main.42aed3ed.chunk.js"
+    "static/js/2.fd34151f.chunk.js",
+    "static/js/main.901b8381.chunk.js"
   ]
 }
