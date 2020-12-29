@@ -27,7 +27,7 @@ export default function Main() {
             <h1>New to Korean?</h1>
 
             <div className="startHere">
-                <a href="/alphabet">Start here</a>
+                <Link to="/alphabet">Start here</Link>
             </div>
             <div className ="introCard">
                 <Card className={classes.root}>
