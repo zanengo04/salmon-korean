@@ -7,7 +7,8 @@ import Hangeul from './components/Hangeul'
 import Typing from './components/Typing'
 import Register from './components/Register'
 import Login from './components/Login'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+//import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { HashRouter, Route } from "react-router-dom";
 import KoreanAlphabet from './components/Pages/Alphabet';
 import Survival from './components/Pages/SurvivalKorean';
 import About from './components/Pages/About';
@@ -29,7 +30,7 @@ function HideAside(){
 
 function App({className}) {
   return (
-    <Router basename="https://zanengo04.github.io/salmon-korean">
+    <HashRouter basename="https://zanengo04.github.io/salmon-korean">
       <div className={className}>
         <Header />
         <Switch>
@@ -53,7 +54,7 @@ function App({className}) {
         <Footer />
       </div>
       
-    </Router>
+    </HashRouter>
     
   )
 }
