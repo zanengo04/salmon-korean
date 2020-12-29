@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://zanengo04.github.io/salmon-korean/precache-manifest.1fa34b26542ec2696b9d22f9dc4bae06.js"
+  "https://zanengo04.github.io/salmon-korean/precache-manifest.df4e9980095288a4ed9f0ee84e379416.js"
 );
 
 self.addEventListener('message', (event) => {
