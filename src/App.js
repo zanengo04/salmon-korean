@@ -7,7 +7,6 @@ import Hangeul from './components/Hangeul'
 import Typing from './components/Typing'
 import Register from './components/Register'
 import Login from './components/Login'
-//import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { HashRouter, Route, Switch } from "react-router-dom";
 import KoreanAlphabet from './components/Pages/Alphabet';
 import Survival from './components/Pages/SurvivalKorean';
