@@ -9,6 +9,9 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
+import LogoutButton from './LogoutButton';
+import LoginButton from './LoginButton';
+import Profile from './Profile';
 
 const useStyles = makeStyles({
     root: {
@@ -25,7 +28,6 @@ export default function Main() {
         <main>
             <div className="cardAlign">
                 <h1>New to Korean?</h1>
-
                 <div className="startHere">
                     <Link to="/alphabet">Start here</Link>
                 </div>

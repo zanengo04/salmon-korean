@@ -8,7 +8,7 @@ export default function Header() {
         
         <header>
             <Link to="/">
-                <img src="logo.png" width="auto" height="50" atl="logo" className="logo" />
+                <img src="logo.png" width="auto" height="50" atl="logo" className="logo" alt='logo'/>
             </Link>
             <Nav />
         </header>

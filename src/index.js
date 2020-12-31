@@ -10,13 +10,10 @@ if (window.location.pathname === '/typing' || window.location.pathname === '/typ
   gridType ="grid-container"
 }
 
-//NEED TO DO THIS LATER
-const domain = process.env.domain
-const clientId = process.env.clientID
 ReactDOM.render(
   <Auth0Provider
-    domain="dev-07bi53dk.us.auth0.com"
-    clientId="mLEgGmNjO25kTGShMww36qu2rz1iYSKK"
+    domain="dev-5z8wlh0r.us.auth0.com"
+    clientId="K2zGy4cwVflj7lRiI28kXJAmbHcNWssE"
     redirectUri={window.location.origin}
   >
     <App className ={gridType}/>

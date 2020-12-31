@@ -3,10 +3,6 @@ import Footer from './components/Footer.js';
 import Aside from './components/Aside.js';
 import Main from './components/Main.js';
 import Header from './components/Header.js';
-import Hangeul from './components/Hangeul'
-import Typing from './components/Typing'
-import Register from './components/Register'
-import Login from './components/Login'
 import { HashRouter, Route, Switch } from "react-router-dom";
 import KoreanAlphabet from './components/Pages/Alphabet';
 import Survival from './components/Pages/SurvivalKorean';
@@ -35,10 +31,6 @@ function App({className}) {
         <Switch>
           <Route exact path="/" component={Main} />
           <Route path="/about" component={About} />
-          <Route path="/typing-hangeul" component={Hangeul} />
-          <Route path="/typing" component={Typing} />
-          <Route path="/login" component={Login} />
-          <Route path="/register" component={Register} />
           <Route path="/alphabet" component={KoreanAlphabet} />
           <Route path="/survival-korean" component={Survival} />
           <Route path="/grammar" component={Grammar} />
