@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "https://zanengo04.github.io/salmon-korean/static/js/main.adfcf3de.chunk.js",
-    "main.js.map": "https://zanengo04.github.io/salmon-korean/static/js/main.adfcf3de.chunk.js.map",
+    "main.js": "https://zanengo04.github.io/salmon-korean/static/js/main.d296828a.chunk.js",
+    "main.js.map": "https://zanengo04.github.io/salmon-korean/static/js/main.d296828a.chunk.js.map",
     "runtime-main.js": "https://zanengo04.github.io/salmon-korean/static/js/runtime-main.dff1a19b.js",
     "runtime-main.js.map": "https://zanengo04.github.io/salmon-korean/static/js/runtime-main.dff1a19b.js.map",
-    "static/js/2.df49316e.chunk.js": "https://zanengo04.github.io/salmon-korean/static/js/2.df49316e.chunk.js",
-    "static/js/2.df49316e.chunk.js.map": "https://zanengo04.github.io/salmon-korean/static/js/2.df49316e.chunk.js.map",
+    "static/js/2.234ee9b7.chunk.js": "https://zanengo04.github.io/salmon-korean/static/js/2.234ee9b7.chunk.js",
+    "static/js/2.234ee9b7.chunk.js.map": "https://zanengo04.github.io/salmon-korean/static/js/2.234ee9b7.chunk.js.map",
     "index.html": "https://zanengo04.github.io/salmon-korean/index.html",
-    "precache-manifest.df4e9980095288a4ed9f0ee84e379416.js": "https://zanengo04.github.io/salmon-korean/precache-manifest.df4e9980095288a4ed9f0ee84e379416.js",
+    "precache-manifest.ed1e324db8b17ce1b5d1c39fd1dbeba7.js": "https://zanengo04.github.io/salmon-korean/precache-manifest.ed1e324db8b17ce1b5d1c39fd1dbeba7.js",
     "service-worker.js": "https://zanengo04.github.io/salmon-korean/service-worker.js",
-    "static/js/2.df49316e.chunk.js.LICENSE.txt": "https://zanengo04.github.io/salmon-korean/static/js/2.df49316e.chunk.js.LICENSE.txt",
+    "static/js/2.234ee9b7.chunk.js.LICENSE.txt": "https://zanengo04.github.io/salmon-korean/static/js/2.234ee9b7.chunk.js.LICENSE.txt",
     "static/media/alphabet.jpg": "https://zanengo04.github.io/salmon-korean/static/media/alphabet.ad5abe0b.jpg",
     "static/media/grammar.jpg": "https://zanengo04.github.io/salmon-korean/static/media/grammar.8661a143.jpg",
     "static/media/survival.jpg": "https://zanengo04.github.io/salmon-korean/static/media/survival.285ae4d0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.dff1a19b.js",
-    "static/js/2.df49316e.chunk.js",
-    "static/js/main.adfcf3de.chunk.js"
+    "static/js/2.234ee9b7.chunk.js",
+    "static/js/main.d296828a.chunk.js"
   ]
 }
