@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "https://zanengo04.github.io/salmon-korean/static/js/main.f45bd24e.chunk.js",
-    "main.js.map": "https://zanengo04.github.io/salmon-korean/static/js/main.f45bd24e.chunk.js.map",
+    "main.js": "https://zanengo04.github.io/salmon-korean/static/js/main.8be39c01.chunk.js",
+    "main.js.map": "https://zanengo04.github.io/salmon-korean/static/js/main.8be39c01.chunk.js.map",
     "runtime-main.js": "https://zanengo04.github.io/salmon-korean/static/js/runtime-main.dff1a19b.js",
     "runtime-main.js.map": "https://zanengo04.github.io/salmon-korean/static/js/runtime-main.dff1a19b.js.map",
     "static/js/2.dad17c81.chunk.js": "https://zanengo04.github.io/salmon-korean/static/js/2.dad17c81.chunk.js",
     "static/js/2.dad17c81.chunk.js.map": "https://zanengo04.github.io/salmon-korean/static/js/2.dad17c81.chunk.js.map",
     "index.html": "https://zanengo04.github.io/salmon-korean/index.html",
-    "precache-manifest.1d377e768aaf9a04358b619854038aa0.js": "https://zanengo04.github.io/salmon-korean/precache-manifest.1d377e768aaf9a04358b619854038aa0.js",
+    "precache-manifest.506c38ca4cd7836c07e0a541cd6d781b.js": "https://zanengo04.github.io/salmon-korean/precache-manifest.506c38ca4cd7836c07e0a541cd6d781b.js",
     "service-worker.js": "https://zanengo04.github.io/salmon-korean/service-worker.js",
     "static/js/2.dad17c81.chunk.js.LICENSE.txt": "https://zanengo04.github.io/salmon-korean/static/js/2.dad17c81.chunk.js.LICENSE.txt",
     "static/media/alphabet.jpg": "https://zanengo04.github.io/salmon-korean/static/media/alphabet.ad5abe0b.jpg",
@@ -17,6 +17,6 @@
   "entrypoints": [
     "static/js/runtime-main.dff1a19b.js",
     "static/js/2.dad17c81.chunk.js",
-    "static/js/main.f45bd24e.chunk.js"
+    "static/js/main.8be39c01.chunk.js"
   ]
 }
