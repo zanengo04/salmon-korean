@@ -493,7 +493,9 @@ table, th, td {
   border-radius: 5px;
 }
 
-.accountButton{
+#accountButton{
   border: none;
-  background-color:  rgb(207, 240, 253)
+  background-color:  rgb(207, 240, 253);
+  color:black;
+  font-family: 'Montserrat', sans-serif;
 }
