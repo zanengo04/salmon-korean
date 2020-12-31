@@ -486,3 +486,9 @@ table, th, td {
 .cardAlign{
   text-align: center;
 }
+
+.profilePicture{
+  height: 10px;
+  width: auto;
+  border-radius: 5px;
+}
