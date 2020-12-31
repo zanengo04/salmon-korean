@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3d72e3be55f666167ce9eae4c275f685",
+    "revision": "441d44286ff0dfe5b8e16afadef56bff",
     "url": "https://zanengo04.github.io/salmon-korean/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://zanengo04.github.io/salmon-korean/static/js/2.dad17c81.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2f57f1aa92736af7defe",
-    "url": "https://zanengo04.github.io/salmon-korean/static/js/main.0bbe21cc.chunk.js"
+    "revision": "3a870f375723be09bacc",
+    "url": "https://zanengo04.github.io/salmon-korean/static/js/main.f45bd24e.chunk.js"
   },
   {
     "revision": "9eba3ec6315a1496cd82",
