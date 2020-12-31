@@ -492,3 +492,8 @@ table, th, td {
   width: auto;
   border-radius: 5px;
 }
+
+.accountButton{
+  border: none;
+  background-color:  rgb(207, 240, 253)
+}
