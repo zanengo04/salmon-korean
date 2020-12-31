@@ -500,6 +500,7 @@ table, th, td {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 17px;
+  cursor: pointer;
 }
 #accountButton a:hover{
   color: rgb(0, 195, 255);
