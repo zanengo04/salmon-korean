@@ -429,64 +429,6 @@ table, th, td {
   width: 300px
 }
 
-.hamburger-icon {
-  margin: 1em;
-  width: 40px;
-  float: right;
-  display: none
-}
-
-.hamburger-icon:after, 
-.hamburger-icon:before, 
-.hamburger-icon div {
-  background-color: black;
-  border-radius: 3px;
-  content: '';
-  display: block;
-  height: 5px;
-  margin: 7px 0;
-  transition: all .2s ease-in-out;
-}
-
-/*.hamburger-icon:active:before {
-  transform: translateY(12px) rotate(135deg);
-}
-
-.hamburger-icon:active:after {
-  transform: translateY(-12px) rotate(-135deg);
-}
-*/
-@media only screen and (max-width: 1025px) {
-  .social{
-    display:none
-  }
-  nav ul{
-    display:none
-  }
-  .hamburger-icon{
-    display: block
-  }
-  .grid-container{
-    margin:0;
-    display:grid;
-    grid-template-columns: 1.2fr 4fr 1.2fr;
-    grid-template-rows: 1fr minmax(635px, auto) 1fr;
-    grid-template-areas:
-      "header    header header"
-      "main       main  main"
-      "footer    footer footer";
-  }
-}
-
-.introCard{
-  text-align:left;
-  display: inline-block;
-  margin: 10px
-}
-.cardAlign{
-  text-align: center;
-}
-
 .profilePicture{
   height: 10px;
   width: auto;
@@ -504,4 +446,89 @@ table, th, td {
 }
 #accountButton a:hover{
   color: rgb(0, 195, 255);
+}
+
+.hamburger{
+  height:80px;
+  display:flex;
+  justify-content: end;
+  align-items: center;
+  float:right;
+  margin-right: 10px;
+}
+
+.hamburger-icon{
+  font-size: 40px;
+  background: none;
+  margin-left: 160px;
+}
+.close-icon{
+  font-size: 40px;
+  margin-left: 130px;
+}
+.hamburger-inactive{
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  right: 100%;
+  top:0px;
+  transition: 850ms;
+}
+
+.hamburger-active{
+  right:0;
+  transition: 350ms;
+  background-color:white;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top:0px;
+  transition: 850ms;
+}
+
+.hamburger-text{
+  display:flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px
+}
+@media only screen and (max-width: 1025px) {
+  .social{
+    display:none
+  }
+  .hamburger{
+    display:none
+  }
+  .grid-container{
+    margin:0;
+    display:grid;
+    grid-template-columns: 1.2fr 4fr 1.2fr;
+    grid-template-rows: 1fr minmax(635px, auto) 1fr;
+    grid-template-areas:
+      "header    header header"
+      "main       main  main"
+      "footer    footer footer";
+  }
+}
+@media only screen and (max-width: 767px) {
+  .fullsize-nav{
+    display:none
+  }
+  .hamburger{
+    display: flex;
+  }
+}
+.introCard{
+  text-align:left;
+  display: inline-block;
+  margin: 10px
+}
+.cardAlign{
+  text-align: center;
 }
