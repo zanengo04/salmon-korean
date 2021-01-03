@@ -450,11 +450,10 @@ table, th, td {
 
 .hamburger{
   height:80px;
-  display:flex;
   justify-content: end;
   align-items: center;
   float:right;
-  margin-right: 10px;
+  display: none;
 }
 
 .hamburger-icon{
@@ -472,22 +471,21 @@ table, th, td {
   display: flex;
   justify-content: center;
   position: fixed;
-  right: 100%;
+  left: 100%;
   top:0px;
-  transition: 850ms;
+  transition: 1000ms;
 }
 
 .hamburger-active{
-  right:0;
   transition: 350ms;
-  background-color:white;
+  background-color:rgb(253, 215, 182);
   width: 200px;
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
   top:0px;
-  transition: 850ms;
+  transition: 1000ms;
 }
 
 .hamburger-text{
@@ -500,9 +498,6 @@ table, th, td {
 }
 @media only screen and (max-width: 1025px) {
   .social{
-    display:none
-  }
-  .hamburger{
     display:none
   }
   .grid-container{
