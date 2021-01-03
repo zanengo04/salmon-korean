@@ -429,35 +429,6 @@ table, th, td {
   width: 300px
 }
 
-.hamburger-icon {
-  margin: 1em;
-  width: 40px;
-  float: right;
-  display: none
-}
-
-.hamburger-icon:after, 
-.hamburger-icon:before, 
-.hamburger-icon div {
-  background-color: black;
-  border-radius: 3px;
-  content: '';
-  display: block;
-  height: 5px;
-  margin: 7px 0;
-  transition: all .2s ease-in-out;
-}
-
-/*.hamburger-icon:active:before {
-  transform: translateY(12px) rotate(135deg);
-}
-
-.hamburger-icon:active:after {
-  transform: translateY(-12px) rotate(-135deg);
-}
-*/
-
-
 .profilePicture{
   height: 10px;
   width: auto;
@@ -479,42 +450,42 @@ table, th, td {
 
 .hamburger{
   height:80px;
-  display:flex;
   justify-content: end;
   align-items: center;
   float:right;
-  margin-right: 10px;
+  display: none;
 }
 
-.menu-bars{
+.hamburger-icon{
   font-size: 40px;
   background: none;
   margin-left: 160px;
 }
-
+.close-icon{
+  font-size: 40px;
+  margin-left: 130px;
+}
 .hamburger-inactive{
-  background-color: #50b9f788;
   width: 200px;
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
-  right: 100%;
+  left: 100%;
   top:0px;
-  transition: 850ms;
+  transition: 1000ms;
 }
 
 .hamburger-active{
-  right:0;
   transition: 350ms;
-  background-color: #50b9f788;
+  background-color:rgb(253, 215, 182);
   width: 200px;
   height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
   top:0px;
-  transition: 850ms;
+  transition: 1000ms;
 }
 
 .hamburger-text{
@@ -525,19 +496,8 @@ table, th, td {
   list-style: none;
   height: 60px
 }
-.hamburger-toggle{
-  width:100%;
-  height: 80px;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-
 @media only screen and (max-width: 1025px) {
   .social{
-    display:none
-  }
-  .hamburger{
     display:none
   }
   .grid-container{

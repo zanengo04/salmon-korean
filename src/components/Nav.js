@@ -23,9 +23,6 @@ export default function Nav() {
                     <List link="/about" content="About"/>
                 </ul>
                 
-                <div class="hamburger-icon" id="hamburger-icon">
-                    <div></div>
-                </div>
             </nav>
         </>
     )
